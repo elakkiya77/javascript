@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    font-family: Arial, sans-serif;
+    background-color: #F1F5F9;
+}
+body > h1.shop-title {
+    width: 100%;
+    background-color:rgb(81, 79, 79);
+    color: #101010;
+      text-shadow: 2px 2px 4px rgb(190, 220, 20);
+    text-align: center;
+    padding: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+body > div.api {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #475569;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    padding: 20px;
+}
+
+body > div.api > div {
+    width: 300px;
+    min-height: 430px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    padding: 20px;
+    background-color: #CBD5E1;
+
+    border-radius: 12px;
+    border: 4px solid rgb(12, 12, 12);
+
+    transition: 0.3s;
+}
+
+body > div.api > div:hover {
+    border: 4px solid rgb(251, 246, 246);
+    box-shadow: 2px 2px 8px 2px rgb(10, 230, 212);
+    transform: translateY(-5px);
+}
+
+body > div.api > div > h2 {
+    font-size: 18px;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+body > div.api > div > h3 {
+    font-size: 16px;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+body > div.api > div > img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    background-color: rgb(111, 107, 107);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+body > div.api > div > p {
+    font-size: 12px;
+    text-align: justify;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+}
+
+body > div.api > div > .price {
+    color: rgb(27, 38, 88);
+    font-size: 22px;
+}
